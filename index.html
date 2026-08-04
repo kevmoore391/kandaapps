@@ -1,51 +1,93 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sidekick Studios</title><style>
-:root{--bg:#0B0B0F;--fg:#E9E9EE;--muted:#9A9AA6;--accent:#A78BFA;--card:#15151C;--line:#26262F}
-@media(prefers-color-scheme:light){:root{--bg:#FFF;--fg:#16161C;--muted:#5C5C68;--accent:#6D4FD0;--card:#F6F6F9;--line:#E4E4EC}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:720px;margin:0 auto;padding:56px 24px 96px}
-header{display:flex;align-items:center;gap:14px;margin-bottom:48px}
-.mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#A78BFA,#C4B5FD)}
-.brand{font-weight:700;font-size:20px;letter-spacing:-.2px}
-h1{font-size:34px;line-height:1.2;letter-spacing:-.6px;margin:0 0 8px}
-h2{font-size:21px;margin:40px 0 12px;letter-spacing:-.2px}
-h3{font-size:17px;margin:26px 0 8px}
-.date{color:var(--muted);font-size:14px;margin-bottom:32px}
-p,li{color:var(--fg)}
-a{color:var(--accent)}
-ul{padding-left:22px}
-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;display:block;overflow-x:auto}
-th,td{border:1px solid var(--line);padding:9px 12px;text-align:left}
-th{background:var(--card)}
-code{background:var(--card);padding:2px 6px;border-radius:5px;font-size:14px}
-blockquote{border-left:3px solid var(--accent);margin:20px 0;padding:8px 18px;background:var(--card);border-radius:0 8px 8px 0}
-hr{border:0;border-top:1px solid var(--line);margin:36px 0}
-footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-footer a{margin-right:18px}
-.nav{margin-bottom:8px}
-</style></head><body><div class="wrap">
-<header><a href="" style="display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit">
-<div class="mark"></div><div class="brand">Sidekick Studios</div></a></header>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sidekick Studios — small apps, made carefully</title>
+<meta name="description" content="We build small, careful apps. Maker of Imaji, the photo editor with real AI built in.">
+<meta property="og:title" content="Sidekick Studios — small apps, made carefully"><meta property="og:description" content="We build small, careful apps. Maker of Imaji, the photo editor with real AI built in.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23A78BFA'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="assets/style.css">
 
-<h1>Sidekick Studios</h1>
-<p class="date">Small apps, made carefully.</p>
-<p>We build tools that do one thing properly, cost a fraction of what the big names
-charge, and don't nag you.</p>
+</head><body>
 
-<h2>Apps</h2>
-<h3><a href="imaji/">Imaji</a></h3>
-<p>Studio-quality photo editing with real AI built in. Remove backgrounds, erase
-anything, upscale to 4&times;, and finish with filters that actually look considered.
-For iPhone.</p>
-<p><a href="imaji/privacy.html">Privacy</a> &middot; <a href="imaji/terms.html">Terms</a></p>
+<div class="nav"><div class="wrap">
+  <a class="logo" href=""><span class="glyph"></span> Sidekick Studios</a>
+  <nav>
+    <a href="imaji/">Imaji</a>
+    <a href="imaji/privacy.html">Privacy</a>
+    <a href="imaji/terms.html">Terms</a>
+  </nav>
+</div></div>
 
-<h2>Contact</h2>
-<p><a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></p>
 
-<footer>
-<div class="nav"><a href="">Sidekick Studios</a><a href="imaji/">Imaji</a>
-<a href="imaji/privacy.html">Privacy</a><a href="imaji/terms.html">Terms</a></div>
-&copy; 2026 Sidekick Studios.
-</footer></div></body></html>
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">Sidekick Studios</div>
+  <h1>Small apps,<br><span class="grad">made carefully.</span></h1>
+  <p class="lede">We build tools that do one thing properly, cost a fraction of what the
+  big names charge, and never nag you. One app so far. It's a good one.</p>
+  <div class="btns">
+    <a class="btn btn-primary" href="imaji/">Meet Imaji</a>
+    <a class="btn btn-ghost" href="#values">What we believe</a>
+  </div>
+</div></section>
+
+<section class="section-alt"><div class="wrap">
+  <div class="split reveal">
+    <div>
+      <div class="eyebrow">Our first app</div>
+      <h2>Imaji</h2>
+      <p class="lede" style="margin-bottom:22px">Studio-quality photo editing with real AI built
+      in. Remove a background in one tap. Brush away anything you don't want. Blow a small
+      photo up to 4&times; without the mush. Then finish with filters that actually look
+      considered.</p>
+      <div class="btns"><a class="btn btn-primary" href="imaji/">See what it does</a></div>
+    </div>
+    <div class="mock"><div class="screen">
+      <div class="photo"></div>
+      <div class="strip">
+        <i style="background:linear-gradient(135deg,#FFD8A8,#FF9E4F)"></i>
+        <i style="background:linear-gradient(135deg,#2B3A4A,#7B8FA6)"></i>
+        <i style="background:linear-gradient(135deg,#FF9ED2,#8FE3FF)"></i>
+        <i style="background:linear-gradient(135deg,#12E5D0,#FF2FB9)"></i>
+        <i style="background:linear-gradient(135deg,#B8F5DE,#6FD9C4)"></i>
+      </div>
+      <div class="bar"><i></i><i class="on"></i><i></i><i></i><i></i></div>
+    </div></div>
+  </div>
+</div></section>
+
+<section id="values"><div class="wrap">
+  <div class="reveal" style="max-width:60ch;margin-bottom:38px">
+    <div class="eyebrow">What we believe</div>
+    <h2>Three things we won't do.</h2>
+  </div>
+  <div class="grid g3 reveal">
+    <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></div><h3>We don't keep your photos</h3>
+      <p>Editing happens on your device. The AI tools pass one image through for the
+      operation you asked for, and we don't store it or train on it.</p></div>
+    <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg></div><h3>We don't nag</h3>
+      <p>No launch interstitials, no countdown timers, no five-step cancellation. If our
+      apps are worth paying for, asking once is enough.</p></div>
+    <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 12h4M12 12h8M4 17h12M20 17h0"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="17" r="2"/></svg></div><h3>We don't pad the price</h3>
+      <p>The category charges $7&ndash;20 a month. We think a good photo editor is worth
+      about the price of a coffee.</p></div>
+  </div>
+</div></section>
+
+
+<footer><div class="wrap cols">
+  <div style="flex:1 1 240px">
+    <a class="logo" href="" style="margin-bottom:12px"><span class="glyph"></span> Sidekick Studios</a>
+    <p style="margin:0;max-width:34ch">Small apps, made carefully. Built in Ireland.</p>
+  </div>
+  <div><h4>Apps</h4><a href="imaji/">Imaji</a></div>
+  <div><h4>Legal</h4>
+    <a href="imaji/privacy.html">Privacy Policy</a>
+    <a href="imaji/terms.html">Terms of Service</a></div>
+  <div><h4>Contact</h4><a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></div>
+</div></footer>
+
+<script src="assets/reveal.js" defer></script>
+</body></html>
