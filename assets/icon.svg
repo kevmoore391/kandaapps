@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E1730"/><stop offset="1" stop-color="#0B0912"/></linearGradient><linearGradient id="l" x1="0.1" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#CFC0FF"/><stop offset="0.55" stop-color="#A78BFA"/><stop offset="1" stop-color="#7FD8FF"/></linearGradient></defs><rect width="1024" height="1024" rx="230" fill="url(#b)"/><circle cx="474" cy="546" r="248" fill="url(#l)"/><circle cx="474" cy="546" r="112" fill="#130F1F"/><path d="M754 250 C 772 342, 800 370, 892 388 C 800 406, 772 434, 754 526 C 736 434, 708 406, 616 388 C 708 370, 736 342, 754 250 Z" fill="url(#l)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#1E1730"/><stop offset="1" stop-color="#0B0912"/></linearGradient>
+<linearGradient id="lav" x1="0.1" y1="0" x2="0.9" y2="1">
+  <stop offset="0" stop-color="#D6C8FF"/><stop offset="1" stop-color="#9B7DF5"/></linearGradient>
+<linearGradient id="glass" x1="0.2" y1="0" x2="0.8" y2="1">
+  <stop offset="0" stop-color="#43346E"/><stop offset="1" stop-color="#181128"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFD98A"/><stop offset="1" stop-color="#FFA83C"/></linearGradient></defs>
+<rect rx="230" fill="url(#bg)"/>
+
+<circle cx="512" cy="512" r="200" fill="url(#lav)"/>
+<circle cx="512" cy="512" r="150" fill="#130F1F"/>
+<circle cx="512" cy="512" r="122" fill="url(#glass)"/>
+<circle cx="512" cy="512" r="122" fill="none" stroke="url(#lav)" stroke-width="20"/>
+<path d="M440.9 491.6 A74 74 0 0 1 486.7 442.5" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" opacity="0.92"/>
+<path d="M777.0037735580382 263.0 C 785.6437735580382 330.2, 805.8037735580382 350.36, 873.0037735580382 359.0 C 805.8037735580382 367.64, 785.6437735580382 387.8, 777.0037735580382 455.0 C 768.3637735580382 387.8, 748.2037735580383 367.64, 681.0037735580382 359.0 C 748.2037735580383 350.36, 768.3637735580382 330.2, 777.0037735580382 263.0 Z" fill="url(#gold)"/><path d="M868.2037735580382 429.08 C 871.8325735580381 457.304, 880.2997735580382 465.77119999999996, 908.5237735580382 469.4 C 880.2997735580382 473.0288, 871.8325735580381 481.496, 868.2037735580382 509.71999999999997 C 864.5749735580382 481.496, 856.1077735580382 473.0288, 827.8837735580381 469.4 C 856.1077735580382 465.77119999999996, 864.5749735580382 457.304, 868.2037735580382 429.08 Z" fill="url(#gold)"/>
+</svg>
