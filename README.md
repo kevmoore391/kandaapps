@@ -1,10 +1,10 @@
-# Sidekick Studios
+# Kanda Apps
 
-The public site for [Sidekick Studios](https://github.com/kevmoore391) — company
+The public site for [Kanda Apps](https://github.com/kevmoore391) — company
 pages, and the Privacy and Terms pages the App Store requires for each app.
 
 ```
-/                  Sidekick Studios
+/                  Kanda Apps
 /imaji/            Imaji
 /imaji/privacy.html
 /imaji/terms.html
