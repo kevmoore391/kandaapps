@@ -39,6 +39,11 @@ a:hover{text-decoration:underline}
 .logo .glyph{width:30px;height:30px;border-radius:9px;flex:0 0 auto;
   background:url("icon.svg") center/cover no-repeat;
   box-shadow:0 4px 14px color-mix(in srgb,var(--a1) 40%,transparent)}
+/* The wordmark replaces glyph-plus-text. Sized by height so it sits on the
+   same baseline as the nav whatever its pixel width, and capped by max-width
+   so a narrow phone shrinks it rather than pushing the nav off screen. */
+.logo .wordmark{height:26px;width:auto;max-width:46vw;display:block}
+.logo:has(.wordmark){font-size:0}
 .nav nav{margin-left:auto;display:flex;gap:22px;font-size:15px}
 .nav nav a{color:var(--muted)}
 .nav nav a:hover{color:var(--fg);text-decoration:none}
