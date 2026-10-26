@@ -19,7 +19,8 @@ company home page.
 
 ## Editing Imaji's privacy policy
 
-Imaji's privacy page is **generated** from `docs/legal/privacy-policy.md` in the
-app repo, which is where the substance lives alongside the code it describes.
-Edit it there and regenerate, so the published policy and the working document
-cannot say different things.
+Edit `imaji/privacy.html` directly — it is the published policy. (It was once
+generated from `docs/legal/privacy-policy.md` in the app repo; that draft has been
+superseded since the September 2026 rewrite and is not kept in sync.) Every
+statement in it is a commitment about how the app behaves, so change the page in
+the same breath as any app change that touches data.
